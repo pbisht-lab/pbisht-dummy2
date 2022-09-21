@@ -16,7 +16,7 @@ pipeline {
       steps {
         // TODO handle uname(thru param?), don't use personel creds for authentication
         withCredentials([file(credentialsId: 'pbisht_public_supermarket', variable: 'KEY_FILE')]) {
-          sh("chef exec stove --username pbisht --key $KEY_FILE --endpoint https://supermarket.chef.io/api/v1 --no-git --no-ssl-verify")
+          sh("chef exec stove --username $user_name --key $KEY_FILE --endpoint https://supermarket.chef.io/api/v1 --no-git --no-ssl-verify")
         }
       }
     }
