@@ -1,6 +1,6 @@
 name 'dummy2'
-description 'A basic starter cookbook. change1..change2..uname from jenkins'
-version '1.0.4'
+description 'A basic starter cookbook. change1..change2..uname from jenkins..optimized key id'
+version '1.0.5'
 maintainer 'Awesome Company, Inc.'
 maintainer_email 'you@example.com'
 # issues_url 'https://github.com/<insert_org_here>/pbisht-dummy2/issues'
